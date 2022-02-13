@@ -1,10 +1,17 @@
+region = ""
+exclusion=""
+oeil=""
+mode=""
+ethnie=""
+genre=""
+
 if region == "Antérieure" :
-    if not("sarcoidose" || "syphilis" || "sérologie syphilis positive" || "sarcoidose prouvée" || "eruption de zona" || "sérologie tréponémique positive"):
+    if not((exclusion =="sarcoidose") or (exclusion =="syphilis") or (exclusion =="sérologie syphilis positive")  (exclusion =="sarcoidose prouvée") or (exclusion =="eruption de zona") or (exclusion =="sérologie tréponémique positive")):
         if oeil == "unilatéral":
             if mode == "aigu":
                 if ethnie == "blanc":
                     if genre == "femme":
-                        print("Antérieure, exclusion, unilatéral, aigu, blanc, femme")
+                        print("VZV,HSV,HLA B27")
                     elif genre == "homme":
                         print("Antérieure, exclusion, unilatéral, aigu, blanc, homme")
                 elif ethnie == "noir":
@@ -32,7 +39,7 @@ if region == "Antérieure" :
                     if genre == "femme":
                         print("Antérieure, exclusion, unilatéral, récurrent, noir, femme")
                     elif genre == "homme":
-                        print("Antérieure, exclusion, unilatéral, aigu, blanc, femme"):
+                        print("Antérieure, exclusion, unilatéral, aigu, blanc, femme")
                 elif ethnie == "asiatique":
                     if genre == "femme":
                     elif genre == "homme":
