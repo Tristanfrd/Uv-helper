@@ -4,6 +4,9 @@ oeil=""
 mode=""
 ethnie=""
 genre=""
+maladieUne ="Aucune"
+maladieDeux ="Aucune"
+maladieTrois ="Aucune"
 
 if region == "Panuvéite":
     if oeil == "unilatéral":
