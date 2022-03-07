@@ -274,3 +274,4 @@ if region == "Intermédiaire":
                     elif genre == "homme":
                         maladieUne = "Pars planite"
 
+
